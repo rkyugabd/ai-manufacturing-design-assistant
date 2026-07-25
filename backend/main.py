@@ -95,5 +95,5 @@ def generate_report(
 
     return {
         "report": report,
-        "pdf_url": pdf_url
+        "pdf_url": f"https://ai-manufacturing-design-assistant.onrender.com/reports/{filename}"
     }
